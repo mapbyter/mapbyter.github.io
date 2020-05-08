@@ -1,0 +1,188 @@
+body {
+  padding-top: 10px;
+  margin-bottom:100px;
+  
+}
+.navbar.navbar-inverse {
+  border: none;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+.nav {
+    font-family:'Righteous';
+    font-size:18px;
+}
+
+.footer {
+    font-family:'Righteous';
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    background-color:#c3c3c3;
+  text-align: center;
+}
+
+.img-responsive {
+    width:100%;
+    overflow:hidden;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 650px !important;
+}
+
+.carousel-caption {
+    font-family:'Righteous';
+    font-size:50px;
+    position: absolute;
+    top:35%;
+    bottom:auto;
+}
+
+.carousel-caption a {
+    font-size:50px;
+    color:white;
+}
+
+.thumbnail {
+    width:100%;
+}
+
+.row {
+    margin:30px;
+}
+
+.carousel-header {
+    padding:0;
+    padding-bottom:100px;
+}
+
+.footer p {
+    padding:0;
+    margin:0;
+}
+
+h4 {
+    line-height:200%;
+}
+
+h3 {
+    text-align:center;
+    font-family:'Righteous';
+}
+
+.dessert-img {
+    padding-top:100px;
+    text-align:center;
+
+    
+}
+
+.dessert-img h1 a {
+    color:#000000;
+    font-family:'Righteous';
+}
+
+.header {
+    font-family:'Righteous';
+    text-align:center;
+    font-size:40px;
+    margin-top:125px;
+}
+
+hr {
+    border-width:3px;
+}
+
+.content-list {
+    font-family:'Righteous';
+    font-size:30px;
+    color:black;
+}
+
+.ingredients {
+    line-height:200%;
+    font-size:18px;
+    list-style: square;
+}
+
+ol.steps {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  margin: 0;
+  padding: 0;
+}
+ol.steps li {
+  counter-increment: my-awesome-counter;
+  font-size: 18px;
+}
+
+ol.steps li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 10px;
+  font-family: 'Righteous';
+  line-height: 1.5;
+}
+
+#disclaimer {
+    text-align:center;
+    font-family:'Righteous';
+}
+
+.scroll-top {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  display: none;
+  background-color:white;
+}
+.scroll-top span {
+  display: inline-block;
+  color: black;
+}
+
+.glyphicon.glyphicon-chevron-up {
+    font-size: 30px;
+    right:4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .rec-pic {
+    float:right;
+    width:60%;
+    }  
+    
+    iframe {
+        width:650px;
+        height:800px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width:400px;
+        height:800px;
+    }
+    
+}
+h1 {
+    font-family:'Righteous';
+}
+
+h2 {
+    font-family:'Righteous';
+}
+
+
